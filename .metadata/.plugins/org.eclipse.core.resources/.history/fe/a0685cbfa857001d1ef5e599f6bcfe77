@@ -1,0 +1,29 @@
+package kodlamaio.dev.dataAccess.concretes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import kodlamaio.dev.dataAccess.abstracts.LanguageRepository;
+import kodlamaio.dev.entities.concretes.ProgrammingLanguage;
+
+public class InMemoryLanguageRepository implements LanguageRepository{
+	
+	List<ProgrammingLanguage> languages;
+	
+	
+	public InMemoryLanguageRepository() {
+		languages = new ArrayList<ProgrammingLanguage>();
+		languages.add(new ProgrammingLanguage(1,"C#"));
+		languages.add(new ProgrammingLanguage(2,"Java"));
+
+	}
+
+
+	@Override
+	public List<ProgrammingLanguage> getAll() {
+		// TODO Auto-generated method stub
+		return languages;
+	}
+	
+	
+}

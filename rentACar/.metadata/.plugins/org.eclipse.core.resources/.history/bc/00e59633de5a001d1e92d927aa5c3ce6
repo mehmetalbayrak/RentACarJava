@@ -1,0 +1,16 @@
+package kodlama.io.rentACar.dataAccess.abstracts;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import kodlama.io.rentACar.entities.concretes.Brand;
+
+public interface BrandRepository extends JpaRepository<Brand> {
+	List<Brand> getAll();
+	//void getById(int id);
+	//Brand get(int id);
+	//void add(Brand brand);
+	//void delete(Brand brand);
+	//void update(Brand brand);
+}

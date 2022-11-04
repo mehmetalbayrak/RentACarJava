@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="kodlamaio.dev.business.abstracts.LanguageService"/>
+    <fullyQualifiedTypeName name="kodlamaio.dev.dataAccess.abstracts.LanguageRepository"/>
+    <fullyQualifiedTypeName name="kodlamaio.dev.entities.concretes.ProgrammingLanguage"/>
+</qualifiedTypeNameHistroy>

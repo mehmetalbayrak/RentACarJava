@@ -1,0 +1,7 @@
+package kodlamaio.dev.business.abstracts;
+import kodlamaio.dev.entities.concretes.ProgrammingLanguage;
+import java.util.List;
+
+public interface LanguageService {
+	List<ProgrammingLanguage> getAll();
+}
